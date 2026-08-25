@@ -35,6 +35,6 @@ The first time you switch Appearance or the Menu bar, macOS asks once for Automa
 access ("control System Events"). Allow it once. Changing the icon style briefly restarts
 the Dock so it takes effect immediately.
 
-## Limitations
+## Status
 
 Currently under development but feel free to use it and give feedback. Just dont expect me to put my heart into this project since it already does what I needed..
