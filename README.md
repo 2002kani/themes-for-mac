@@ -37,8 +37,4 @@ the Dock so it takes effect immediately.
 
 ## Limitations
 
-- No accent/highlight color (macOS does not apply this reliably to running apps).
-- Tinted icon style uses the system default tint; a custom tint color is not wired up.
-- Icon style relies on the private `AppleIconAppearanceTheme` key (macOS 26) and may change
-  in future macOS releases.
-- The local build is ad-hoc signed. If Gatekeeper blocks it: right-click the app > Open.
+Currently under development but feel free to use it and give feedback. Just dont expect me to put my heart into this project since it already does what I needed..
