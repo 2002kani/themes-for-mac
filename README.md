@@ -1,57 +1,44 @@
 # Theme Switcher
 
-Eine schlanke macOS-Menu-Bar-App, mit der du **Themes** definierst und per Klick umschaltest.
-Ein Theme bündelt:
+A minimal macOS menu bar app to define system themes and switch between them with one click.
 
-- 🌓 **Erscheinungsbild** – Hell / Dunkel
-- 🖼️ **Hintergrund** – eigenes Wallpaper **pro Bildschirm** (stabil über Display-UUID)
-- 📏 **Menüleiste** – immer sichtbar / automatisch ausblenden
-- 🎨 **Symbol- & Widget-Stil** – Standard / Dunkel / Transparent / Eingefärbt (macOS 26)
+A theme can set:
 
-Jede Eigenschaft kann pro Theme auch auf *„Unverändert"* stehen bleiben.
+- Appearance (Light / Dark)
+- Wallpaper, per screen
+- Menu bar (always visible / auto-hide)
+- Icon & widget style (Standard / Dark / Transparent / Tinted, macOS 26)
 
-## Bauen & Starten
+Each property can also be left as "Unchanged".
 
-Es wird nur die **Command Line Tools**-Toolchain benötigt (kein volles Xcode):
+## Build & Run
+
+Requires only the Command Line Tools (no full Xcode):
 
 ```bash
 bash build.sh
 open ThemeSwitcher.app
 ```
 
-Danach erscheint ein Paletten-Icon 🎨 in der Menüleiste (kein Dock-Icon).
+A palette icon appears in the menu bar (no Dock icon).
 
-## Bedienung
+## Usage
 
-- **Icon anklicken** → Liste der Themes (Häkchen = aktiv). Klick wendet das Theme an.
-- **„Themes bearbeiten…"** → Editor zum Anlegen/Bearbeiten/Löschen.
-  - „Sichern" speichert, „Jetzt anwenden" setzt das Theme sofort.
+- Click the icon to see your themes (checkmark = active). Clicking one applies it.
+- "Themes bearbeiten..." opens the editor to create, edit, and delete themes.
 
-## Berechtigungen
+Themes are stored at `~/Library/Application Support/ThemeSwitcher/themes.json`.
 
-Beim ersten Umschalten von **Erscheinungsbild** oder **Menüleiste** fragt macOS einmalig nach der
-Automation-Berechtigung („Theme Switcher möchte *System Events* steuern"). Einmal erlauben – danach
-läuft es ohne Rückfrage. Nachträglich änderbar unter
-*Systemeinstellungen › Datenschutz & Sicherheit › Automation*.
+## Permissions
 
-Wallpaper und Symbol-/Widget-Stil brauchen keine Sonderberechtigung. Der Symbol-Stil wird über
-`AppleIconAppearanceTheme` gesetzt; damit er sofort greift, startet die App kurz das **Dock** neu
-(kurzes Flackern des Docks).
+The first time you switch Appearance or the Menu bar, macOS asks once for Automation
+access ("control System Events"). Allow it once. Changing the icon style briefly restarts
+the Dock so it takes effect immediately.
 
-## Speicherort der Themes
+## Limitations
 
-```
-~/Library/Application Support/ThemeSwitcher/themes.json
-```
-
-## Grenzen (v1)
-
-- **Akzent-/Highlight-Farbe** ist nicht enthalten: macOS übernimmt diese bei laufenden Apps nicht
-  zuverlässig live (oft erst nach Ab-/Anmelden).
-- Beim **Symbol-/Widget-Stil** wird aktuell nur der Stil selbst gesetzt; eine **eigene Tint-Farbe**
-  für „Eingefärbt" ist noch nicht angebunden (nutzt die Systemvorgabe).
-- Der Symbol-Stil nutzt den privaten Schlüssel `AppleIconAppearanceTheme` (macOS 26) – kann sich mit
-  künftigen macOS-Versionen ändern.
-- Der lokale Build ist nur ad-hoc signiert. Falls Gatekeeper meckert: Rechtsklick auf die App →
-  „Öffnen".
-```
+- No accent/highlight color (macOS does not apply this reliably to running apps).
+- Tinted icon style uses the system default tint; a custom tint color is not wired up.
+- Icon style relies on the private `AppleIconAppearanceTheme` key (macOS 26) and may change
+  in future macOS releases.
+- The local build is ad-hoc signed. If Gatekeeper blocks it: right-click the app > Open.
