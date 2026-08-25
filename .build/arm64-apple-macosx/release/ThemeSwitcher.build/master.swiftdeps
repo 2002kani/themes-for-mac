@@ -1,0 +1,13 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "5a35d260002460bf2e4b0736c398f5f3df6aa527412880097b34b2455634a2c4"
+build_start_time: [1787674594, 187286000]
+build_end_time: [1787674596, 169775000]
+inputs:
+  "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/EditorView.swift": [1787674585, 824572612]
+  "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/EditorWindowController.swift": [1787672676, 847486356]
+  "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/MenuBarController.swift": [1787672640, 71078189]
+  "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/Screens.swift": [1787674550, 154683221]
+  "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/SystemController.swift": [1787674565, 110546327]
+  "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/Theme.swift": [1787674542, 415465805]
+  "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/ThemeStore.swift": [1787672607, 164193902]
+  "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/main.swift": [1787672644, 682817693]

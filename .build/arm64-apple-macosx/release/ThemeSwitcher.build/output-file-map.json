@@ -1,0 +1,47 @@
+{
+  "": {
+    "dependencies": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/ThemeSwitcher.d",
+    "object": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/ThemeSwitcher.o",
+    "swift-dependencies": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/master.swiftdeps"
+  },
+  "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/EditorView.swift": {
+    "object": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/EditorView.swift.o",
+    "swiftmodule": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/EditorView~partial.swiftmodule",
+    "swift-dependencies": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/EditorView.swiftdeps"
+  },
+  "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/EditorWindowController.swift": {
+    "object": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/EditorWindowController.swift.o",
+    "swiftmodule": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/EditorWindowController~partial.swiftmodule",
+    "swift-dependencies": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/EditorWindowController.swiftdeps"
+  },
+  "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/MenuBarController.swift": {
+    "object": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/MenuBarController.swift.o",
+    "swiftmodule": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/MenuBarController~partial.swiftmodule",
+    "swift-dependencies": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/MenuBarController.swiftdeps"
+  },
+  "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/Screens.swift": {
+    "object": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/Screens.swift.o",
+    "swiftmodule": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/Screens~partial.swiftmodule",
+    "swift-dependencies": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/Screens.swiftdeps"
+  },
+  "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/SystemController.swift": {
+    "object": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/SystemController.swift.o",
+    "swiftmodule": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/SystemController~partial.swiftmodule",
+    "swift-dependencies": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/SystemController.swiftdeps"
+  },
+  "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/Theme.swift": {
+    "object": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/Theme.swift.o",
+    "swiftmodule": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/Theme~partial.swiftmodule",
+    "swift-dependencies": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/Theme.swiftdeps"
+  },
+  "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/ThemeStore.swift": {
+    "object": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/ThemeStore.swift.o",
+    "swiftmodule": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/ThemeStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/ThemeStore.swiftdeps"
+  },
+  "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/main.swift": {
+    "object": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/main.swift.o",
+    "swiftmodule": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/main.swiftdeps"
+  }
+}

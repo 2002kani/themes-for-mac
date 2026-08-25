@@ -1,0 +1,332 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.ThemeSwitcher-arm64-apple-macosx16.0-release.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/sources",
+      "importPath" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/EditorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/EditorWindowController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/MenuBarController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/Screens.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/SystemController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/Theme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/ThemeStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "ThemeSwitcher",
+      "moduleOutputPath" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/Modules/ThemeSwitcher.swiftmodule",
+      "objects" : [
+        "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/EditorView.swift.o",
+        "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/EditorWindowController.swift.o",
+        "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/MenuBarController.swift.o",
+        "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/Screens.swift.o",
+        "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/SystemController.swift.o",
+        "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/Theme.swift.o",
+        "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/ThemeStore.swift.o",
+        "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-O",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "ThemeSwitcher_main",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "themesmac"
+      ],
+      "outputFileMapPath" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/EditorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/EditorWindowController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/MenuBarController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/Screens.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/SystemController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/Theme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/ThemeStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/Modules/ThemeSwitcher.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/EditorView.swift",
+        "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/EditorWindowController.swift",
+        "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/MenuBarController.swift",
+        "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/Screens.swift",
+        "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/SystemController.swift",
+        "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/Theme.swift",
+        "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/ThemeStore.swift",
+        "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/main.swift"
+      ],
+      "tempsPath" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "ThemeSwitcher" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "ThemeSwitcher",
+      "-package-name",
+      "themesmac",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-c",
+      "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/EditorView.swift",
+      "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/EditorWindowController.swift",
+      "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/MenuBarController.swift",
+      "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/Screens.swift",
+      "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/SystemController.swift",
+      "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/Theme.swift",
+      "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/ThemeStore.swift",
+      "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/main.swift",
+      "-I",
+      "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-O",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-module-cache-path",
+      "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "ThemeSwitcher_main",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "themesmac",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "ThemeSwitcher" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "writeCommands" : {
+    "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/EditorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/EditorWindowController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/MenuBarController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/Screens.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/SystemController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/Theme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/ThemeStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/Sources/ThemeSwitcher/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/sources"
+    },
+    "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/EditorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/EditorWindowController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/MenuBarController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/Screens.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/SystemController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/Theme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/ThemeStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/ThemeSwitcher.product/Objects.LinkFileList"
+    },
+    "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/kanikaradag/projekte/themesMac/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}
