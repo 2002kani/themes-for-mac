@@ -13,7 +13,7 @@ Each property can also be left as "Unchanged".
 
 ## Build & Run
 
-Requires only the Command Line Tools (no full Xcode):
+Requires only the Command Line Tools:
 
 ```bash
 bash build.sh
